@@ -1,0 +1,76 @@
+﻿@model PagedList.IPagedList<Model.Model.Order>
+
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Quản Lý Hóa Đơn Chưa Duyệt";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    Danh Sách Hóa Đơn Chưa Duyệt
+}
+<div class="row">
+    @using (Html.BeginForm("Index", "Bill", FormMethod.Get))
+    {
+
+        <div class="">
+            <div class="col-md-6">
+                <input class="form-control" id="myInput" type="text" placeholder="Search.." name="searchString" value="@ViewBag.search">
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-info">Tìm Kiếm</button>
+            </div>
+        </div>
+
+    }
+</div>
+<br />
+<div>
+    <table class="table table-bordered col-12">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Ngày tạo</th>
+                <th>Mã Người dùng</th>
+                <th>Tổng Tiền</th>
+                <th>Trạng Thái</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr id="row_@item.ID">
+                <td>@item.ID</td>
+                <td>@item.CreateDate</td>
+                <td>@item.CustomerID</td>
+                <td>
+                    @{
+                        var price = item.TotalMoney;
+                        <span>@String.Format("{0:N0}", price)</span>
+                    }
+                </td>
+                <td><span class="text-danger">Chưa duyệt</span></td>
+                <td>
+                    @Ajax.ActionLink("Duyệt", "approved", new { id = @item.ID}, new AjaxOptions
+               {
+                   Confirm = "Bạn duyệt hóa đơn này?",
+                   OnComplete = "$('#row_" + @item.ID + "').remove()",
+                   HttpMethod = "Delete"
+               }, new { @class = "btn btn-button bg-success", @style="font-size: 14px;" })
+                    &nbsp;
+                    @*Cần add thư viện unobtrusive ajax*@
+                    @Ajax.ActionLink("Không Duyệt", "Delete", new { id = @item.ID}, new AjaxOptions
+               {
+                   Confirm = "Bạn không duyệt hóa đơn này?",
+                   OnComplete = "$('#row_" + @item.ID + "').remove()",
+                   HttpMethod = "Delete"
+               }, new { @class = "btn btn-button bg-danger", @style="font-size: 14px;" })
+                </td>
+            </tr>
+            }
+
+        </tbody>
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = ViewBag.search }))
+</div>

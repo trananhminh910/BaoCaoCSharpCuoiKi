@@ -1,0 +1,105 @@
+﻿@model PagedList.IPagedList<Model.Model.Product>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Quản Lý Sản Phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    Danh Sách Sản Phẩm
+}
+<div class="row">
+    @using (Html.BeginForm("Index", "Product", FormMethod.Get))
+    {
+
+        <div class="">
+            <div class="col-md-6">
+                <input class="form-control" id="myInput" type="text" placeholder="Search.." name="searchString" value="@ViewBag.search">
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-info">Tìm Kiếm</button>
+            </div>
+        </div>
+
+    }
+
+    <div class="col-md-2">
+        <a href="/Admin/Product/create">
+            <button type="button" class="btn btn-success"><i class="fa fa-plus text-light" style="font-size: 13px;"></i>  Tạo mới</button>
+        </a>
+    </div>
+</div>
+<br />
+<div>
+    <table class="table table-bordered col-12">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Mã Sản Phẩm</th>
+                <th>Tên Sản Phẩm</th>
+                <th>Đơn Giá</th>
+                <th>Số Lượng</th>
+                <th>Hình Ảnh</th>
+                <th>Trạng Thái</th>
+                <th>Mã Danh Mục</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{ var i = 0;}
+            @foreach (var item in Model)
+            {
+            <tr id="row_@item.ID">
+                <td>
+                    @{
+                        i = i + 1;
+                        <span>@i</span>
+
+                    }
+
+                </td>
+                <td>@item.ID</td>
+                <td>@item.Name</td>
+                <td>
+                    @{
+                        var price = item.Price;
+                        <span>@String.Format("{0:N0}", price)</span>
+                        }
+                    </td>
+                <td>@item.Quantity</td>
+                <td>
+                    <img src="~/Uploads/products/@ViewBag.yearURLImage-@ViewBag.monthURLImage/@item.Image" style="height: 130px; width: 90px; margin: 0 auto;"/>
+                </td>
+                <td>
+                    @if (@item.Status == false)
+                    {
+                        <span class="text-danger alert-warning" style="font-weight: bolder;">Hết Hàng</span>
+                    }
+                    else
+                    {
+                        <span class="text-success alert-warning" style="font-weight: bolder;">Còn Hàng</span>
+                    }
+                </td>
+                <td>@item.CategoryID</td>
+                <td>
+                    <a href="/Admin/Product/ViewDetail/@item.ID">
+                        <i class="fa fa-eye text-primary" style="font-size: 18px;"></i>
+                    </a>&nbsp;
+                    <a href="/Admin/Product/Edit/@item.ID">
+                        <i class="fa fa-edit text-success" style="font-size: 18px;"></i>
+                    </a>&nbsp;
+                    @*Cần add thư viện unobtrusive ajax*@
+                    @Ajax.ActionLink(" ", "Delete", new { id = @item.ID}, new AjaxOptions
+               {
+                   Confirm = "Bạn có muốn xóa danh mục "+ @item.Name.Trim() +" không?",
+                   OnComplete = "$('#row_" + @item.ID + "').remove()",
+                   HttpMethod = "Delete"
+               }, new { @class = "fa fa-times text-danger", @style="font-size: 18px;" })
+                </td>
+            </tr>
+            }
+
+        </tbody>
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = ViewBag.search }))
+</div>

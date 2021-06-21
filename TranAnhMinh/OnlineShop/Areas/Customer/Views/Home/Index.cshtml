@@ -1,0 +1,74 @@
+﻿@model PagedList.IPagedList<Model.Model.Product>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Customer/Views/Shared/_Layout.cshtml";
+}
+
+    @section pagedList {
+        <div style="font-size: 1em;margin:10px;padding: 5px;display:inline-block" class="pagination">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = ViewBag.search }),
+           new PagedListRenderOptions()
+           {
+               DisplayLinkToIndividualPages = true,
+               DisplayPageCountAndCurrentLocation = false,
+               MaximumPageNumbersToDisplay = 10,
+               LiElementClasses = new string[] { "page-item" },
+
+           })
+        </div>
+    }
+    @section search {
+        @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+        {
+
+            <div class="col-md-12 row">
+                <div class="col-md-10">
+                    <input class="form-control" id="myInput" type="text" placeholder="Search.." name="searchString" value="@ViewBag.search">
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-info">Tìm Kiếm</button>
+                </div>
+            </div>
+            <div>
+                <hr />
+            </div>
+
+        }
+    }
+
+    @foreach (var item in Model)
+    {
+        <div class="card col-sm-5" style="margin:20px;">
+            <div class="card-body">
+                <h4 class="card-title" style="font-weight: bolder;">@item.Name</h4>
+                <p class="card-text"><img src="~/Uploads/products/@ViewBag.yearURLImage-@ViewBag.monthURLImage/@item.Image" class="col-sm-10" style="height: 250px; margin: 0 auto;" /></p>
+                <p class="card-text">@item.Description</p>
+                <p class="card-text">
+                    <i class="fa fa-money" style="font-size: 1.5em"></i> @{
+                        var price = item.Price;
+                        <span>@String.Format("{0:N0}", price)</span>
+                    }  VNĐ
+                </p>
+                <p class="card-text">Số Lượng: @item.Quantity</p>
+                <p class="card-text">
+                    @if (@item.Status == false)
+                    {
+                        <span class="text-danger alert-warning" style="font-weight: bolder;">Hết Hàng</span>
+                    }
+                    else
+                    {
+                        <span class="text-success alert-warning" style="font-weight: bolder;">Còn Hàng</span>
+                    }
+                </p>
+                <div style="text-align:center;">
+                    <a href="#" class="card-link"><i class="fa fa-eye" style="font-size: 1.5em"></i></a>
+                    <a href="/Customer/Cart/AddItem?productid=@item.ID&quantity=1" class="card-link"><i class="fa fa-shopping-cart text-danger" style="font-size: 1.5em"></i></a>
+                </div>
+
+            </div>
+        </div>
+    }
+
+
+

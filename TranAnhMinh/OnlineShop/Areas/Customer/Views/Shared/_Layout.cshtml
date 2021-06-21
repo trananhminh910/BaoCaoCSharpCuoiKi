@@ -1,0 +1,97 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title - Sản Phẩm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="~/Content/PagedList.css" rel="stylesheet" />
+    <style>
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+
+        * {
+            font-family: sans-serif;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="jumbotron text-center bg-warning" style="margin-bottom:0">
+        <h1>THẾ GIỚI PHONE</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Trang chủ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                @foreach (var item in ViewBag.ListCategory)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Customer/home?cateID=@item.ID">@item.Name</a>
+                    </li>
+                }
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+            <div class="col-sm-3">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">LOẠI SẢN PHẨM</a>
+                    </li>
+                    @foreach (var item in ViewBag.ListCategory)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Customer/home?cateID=@item.ID">@item.Name</a>
+                        </li>
+                    }
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="/Customer/home" style="font-size:1.2em; font-style: italic;">Xem tất cả <i class="fa fa-arrow-right" style="font-size: 1em"></i></a>
+                    </li>
+                </ul>
+                <hr class="d-sm-none">
+                @{ Html.RenderAction("HeaderCart", "Home");}
+
+            </div>
+
+            <div class="col-sm-9" style="padding-bottom:50px;">
+                <h3>Danh Sách Sản Phẩm</h3>
+                @RenderSection("search", required: true)
+                <div class="row">
+                    @RenderBody()
+                </div>
+                <hr />
+                @RenderSection("pagedList", required: true)
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="jumbotron text-center bg-dark" style="margin-bottom:0">
+    </div>
+    <div class="jumbotron text-center bg-warning" style="margin-bottom:0">
+        <h3>THẾ GIỚI PHONE</h3>
+        <p>Trần Anh Minh</p>
+    </div>
+    @RenderSection("jsFooter", required: false)
+</body>
+</html>

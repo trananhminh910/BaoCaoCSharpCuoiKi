@@ -1,0 +1,32 @@
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\Model.dll.config
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\Model.dll
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\Model.pdb
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\EntityFramework.dll
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\PagedList.dll
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\PagedList.Mvc.dll
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\EntityFramework.xml
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\PagedList.xml
+D:\Documents\Docnet\OnlineShop\Model\bin\Debug\PagedList.Mvc.xml
+D:\Documents\Docnet\OnlineShop\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Documents\Docnet\OnlineShop\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Documents\Docnet\OnlineShop\Model\obj\Debug\Model.dll
+D:\Documents\Docnet\OnlineShop\Model\obj\Debug\Model.pdb
+D:\Documents\Docnet\OnlineShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\Model.dll.config
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\Model.dll
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\Model.pdb
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\EntityFramework.dll
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\PagedList.dll
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\PagedList.Mvc.dll
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\EntityFramework.xml
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\PagedList.xml
+D:\Documents\Docnet\OnlineShop - Copy\Model\bin\Debug\PagedList.Mvc.xml
+D:\Documents\Docnet\OnlineShop - Copy\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Documents\Docnet\OnlineShop - Copy\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Documents\Docnet\OnlineShop - Copy\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Documents\Docnet\OnlineShop - Copy\Model\obj\Debug\Model.dll
+D:\Documents\Docnet\OnlineShop - Copy\Model\obj\Debug\Model.pdb

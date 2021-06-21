@@ -1,0 +1,176 @@
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\OnlineShop.dll.config
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\OnlineShop.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\OnlineShop.pdb
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\csc.exe
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\csc.exe.config
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\csc.rsp
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\csi.exe
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\csi.exe.config
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\csi.rsp
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.AppContext.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Console.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.IO.Compression.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.IO.Pipes.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Security.AccessControl.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Security.Claims.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.ValueTuple.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Xml.XPath.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\vbc.exe
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\vbc.exe.config
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\vbc.rsp
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\EntityFramework.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Model.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Newtonsoft.Json.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.Helpers.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.Mvc.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.Optimization.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.Razor.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\WebGrease.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Model.pdb
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Model.dll.config
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\EntityFramework.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.Helpers.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.Mvc.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.Optimization.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.Razor.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojAssemblyReference.cache
+D:\Documents\Docnet\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.CoreCompileInputs.cache
+D:\Documents\Docnet\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.CopyComplete
+D:\Documents\Docnet\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\PagedList.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\PagedList.Mvc.dll
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\PagedList.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\PagedList.Mvc.xml
+D:\Documents\Docnet\OnlineShop\OnlineShop\bin\Logger.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\OnlineShop.dll.config
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\OnlineShop.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\OnlineShop.pdb
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\csc.exe
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\csc.exe.config
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\csc.rsp
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\csi.exe
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\csi.exe.config
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\csi.rsp
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.AppContext.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Console.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.IO.Compression.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.IO.Pipes.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Security.AccessControl.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Security.Claims.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.ValueTuple.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Xml.XPath.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\vbc.exe
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\vbc.exe.config
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\vbc.rsp
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\VBCSCompiler.exe
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Antlr3.Runtime.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\EntityFramework.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\EntityFramework.SqlServer.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Logger.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Model.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Newtonsoft.Json.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\PagedList.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\PagedList.Mvc.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.Helpers.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.Mvc.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.Optimization.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.Razor.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.WebPages.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.WebPages.Razor.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\WebGrease.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Model.pdb
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Model.dll.config
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\EntityFramework.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\EntityFramework.SqlServer.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\PagedList.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\PagedList.Mvc.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.Helpers.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.Mvc.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.Optimization.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.Razor.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.WebPages.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\System.Web.WebPages.Razor.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Newtonsoft.Json.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Antlr3.Runtime.pdb
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\obj\Debug\OnlineShop.csprojAssemblyReference.cache
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\obj\Debug\OnlineShop.csproj.CoreCompileInputs.cache
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\obj\Debug\OnlineShop.csproj.CopyComplete
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\obj\Debug\OnlineShop.dll
+D:\Documents\Docnet\OnlineShop - Copy\OnlineShop\obj\Debug\OnlineShop.pdb
